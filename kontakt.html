@@ -4,8 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>Kontakt os</title>
+
     <link rel="stylesheet" href="styles/main.css">
+
+    <link rel="stylesheet" href="kontakt.css">
 </head>
 
 <body>
@@ -26,14 +29,50 @@
 
 
     <section>
-        <div>Kontaktform</div>
+        <div>
+
+
+
+            <section id="contact-form">
+                <h2>Kontaktform</h2>
+                <form id="contact" name="contact" accept-charset="utf-8">
+                    <label><span>Emne</span><input name="emne" type="text" placeholder="Emne" /></label>
+                    <label><span>Fulde navn</span><input name="name" type="text" placeholder="Name" /></label>
+                    <label><span>Adresse</span><input name="adresse" type="text" placeholder="Adresse" /></label>
+                    <label><span>Postnummer og by</span><input name="postnummer og by" type="text" placeholder="Postnummer og by" /></label>
+                    <label><span>Mobilnummer</span><input name="mobilnummer" type="number" placeholder="Mobilnummer" /></label>
+
+                    <label><span>Email</span><input name="email" type="email" placeholder="Email" /></label>
+                    <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
+
+                    <form action="upload.php" method="post" enctype="multipart/form-data">
+                        Select image to upload:
+                        <input type="file" name="fileToUpload" id="fileToUpload">
+                    </form>
+
+
+
+
+
+                    <input name="submit" type="submit" value="Send" />
+                </form>
+            </section>
+
+
+
+
+
+        </div>
+
 
         <div>
             <article>
                 Hej! <br>
+                <br>
                 Du kan kontakte Buhls Møbelpolstring ved at udfylde kontaktformen på denne side, eller ved at ringe på tlf. 20 21 19 09. <br>
-                Henvendelse på et af vores værksteder er kun muligt efter forudgående aftale med møbelpolstrer Maria Buhl. <br>
-                Har du spørgsmål eller ønsker du et uforpligtende pristilbud, så kan du vedhæfte et billede af dit møbel/dine møbler når du udfylder kontaktformen på denne side. <br>
+                <br>
+                Henvendelse på et af vores værksteder er kun muligt efter forudgående aftale med møbelpolstrer Maria Buhl. <br> <br>
+                Har du spørgsmål eller ønsker du et uforpligtende pristilbud, så kan du vedhæfte et billede af dit møbel/dine møbler når du udfylder kontaktformen på denne side. <br> <br>
 
                 Email: info @ buhlsmoebelpolstring.dk
 
