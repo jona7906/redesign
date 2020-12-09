@@ -24,6 +24,8 @@ h2 {
     font-family: 'Quicksand', sans-serif;
 }
 
-p {
+p,
+article,
+label {
     font-family: 'Roboto', sans-serif;
 }
