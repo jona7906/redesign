@@ -1,0 +1,34 @@
+video {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.front_video {
+    position: relative;
+    overflow: hidden;
+    height: 40vw;
+}
+
+.front_video_sprite {}
+
+.front_text {
+    bottom: 6vw;
+    position: absolute;
+    z-index: 10;
+    left: 1vw;
+    width: 60vw;
+    height: 10vw;
+
+}
+
+.contact_container {
+    background-image: url(images/contact_background.jpg);
+    background-position: center;
+
+    width: 100%;
+}
+
+.contact_button {
+    text-align: center;
+}
