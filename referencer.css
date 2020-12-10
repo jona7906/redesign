@@ -22,3 +22,12 @@ a {
         grid-column: 2/3;
     }
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img
