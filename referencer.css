@@ -21,7 +21,7 @@ h2 {
 
     .sectionwrapper .tekst {
         grid-column: 1/2;
-        margin-top: 5px;
+        margin: 5px, 5px, 0px, 20px;
     }
 
     .sectionwrapper .billede {
