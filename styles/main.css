@@ -95,3 +95,7 @@ footer p {
 .karslunde2 {
     grid-column: 4/5;
 }
+
+.info_tekst {
+    text-align: center;
+}
