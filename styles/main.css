@@ -5,6 +5,8 @@
 main {
     margin: 0 auto;
     width: 100%;
+    position: relative;
+    min-height: 100vh;
 }
 
 img {
@@ -60,9 +62,15 @@ h3 {
 footer {
     background-color: #BEC6CC;
     padding: 10px;
-    position: fixed;
+    position: absolute;
     bottom: 0;
+    width: 100%;
+    height: 20rem;
     padding-left: 15px;
+}
+
+#privatkunder {
+    padding-bottom: 20rem;
 }
 
 footer h4 {
