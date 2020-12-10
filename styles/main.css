@@ -45,7 +45,8 @@ h1 {
 }
 
 h2,
-header {
+header,
+h4 {
     font-family: 'Quicksand', sans-serif;
 }
 
