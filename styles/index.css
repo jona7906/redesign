@@ -79,11 +79,16 @@ video {
 
 .info_sprite_01 {
     grid-column: 2/4;
-    grid-row: 4/5;
+    height: 100%;
+    column-gap: 0vw;
 }
 
 .info_text_01 {
     text-align: left;
+    background-color: lightslategray;
+    width: 100%;
+
+
 }
 
 .social_container {
