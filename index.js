@@ -4,11 +4,11 @@ document.querySelector("#karlslunde_map").addEventListener("click", showKarlslun
 
 
 function showHillerod() {
-    document.querySelector("#front_map_karlslunde").classList.add("front_map_02");
-    document.querySelector("#front_map_hillerod").classList.remove("front_map_02");
+    document.querySelector("#front_map_karlslunde").classList.add("hide_map");
+    document.querySelector("#front_map_hillerod").classList.remove("hide_map");
 }
 
 function showKarlslunde() {
-    document.querySelector("#front_map_hillerod").classList.add("front_map_02");
-    document.querySelector("#front_map_karlslunde").classList.remove("front_map_02");
+    document.querySelector("#front_map_hillerod").classList.add("hide_map");
+    document.querySelector("#front_map_karlslunde").classList.remove("hide_map");
 }

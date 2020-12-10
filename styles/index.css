@@ -71,26 +71,27 @@ video {
     grid-row: 1/5;
 }
 
-.front_map_02 {
+
+#front_map_hillerod {
+    grid-column: 1/2;
+    grid-row: 1/5;
+}
+
+.hide_map {
     display: none;
 }
 
 .info_sprite_01 {
     grid-column: 2/4;
     height: 100%;
-
-}
-
-.info_text_01 {
+    grid-row: 1/6;
     text-align: left;
     background-color: #D9DADF;
     width: 100%;
-<<<<<<< HEAD
-    height: 100%;
+}
 
-
-=======
->>>>>>> redesign/master
+.info_text_01 {
+    margin-left: 1vw;
 }
 
 .social_container {
