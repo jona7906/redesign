@@ -60,7 +60,7 @@ h3 {
 }
 
 footer {
-    background-color: #BEC6CC;
+   /* background-color: #BEC6CC;*/
     padding: 10px;
     position: absolute;
     bottom: 0;
@@ -81,7 +81,7 @@ footer p {
     font-size: 0.8rem;
 }
 
-#footer_container {
+/*#footer_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 5vw;
@@ -102,7 +102,7 @@ footer p {
 
 .karslunde2 {
     grid-column: 4/5;
-}
+}*/
 
 .info_tekst {
     text-align: center;
