@@ -42,9 +42,7 @@
                 <p>
                     <label>Fulde navn <input type="text" name="name" /></label>
                 </p>
-                <p>
-                    <label>Email <input type="email" name="email" /></label>
-                </p>
+
                 <p>
                     <label>Adresse <input type="text" name="adresse" /></label>
                 </p>
@@ -61,14 +59,19 @@
                     <label>Email <input type="email" name="Email" /></label>
                 </p>
 
-                <p>
-                    <label>Besked <input type="text" name="adresse" /></label>
-                </p>
+
                 <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
 
                 <p>
                     <button type="submit">Send</button>
                 </p>
+
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+
+
+                </form>
             </form>
 
             <form id="contact" name="contact" accept-charset="utf-8" netlify>
