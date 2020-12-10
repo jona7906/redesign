@@ -19,7 +19,9 @@ video {
 
 }
 
-.front_video_sprite {}
+.front_video_sprite {
+    bottom: 15vw;
+}
 
 .front_text {
     bottom: 6vw;
@@ -82,4 +84,12 @@ video {
 
 .info_text_01 {
     text-align: center;
+}
+
+.social_container {
+    width: 100%;
+    height: 25vw;
+    position: relative;
+    display: block;
+    background-color: palegoldenrod;
 }
