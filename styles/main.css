@@ -17,10 +17,6 @@ body {
     width: 100%;
 }
 
-section {
-    max-width: 1150px;
-}
-
 nav {
     text-transform: uppercase;
     text-align: center;
