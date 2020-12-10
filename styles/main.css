@@ -21,7 +21,8 @@ h1 {
     text-align: center;
 }
 
-h2 {
+h2,
+header {
     font-family: 'Quicksand', sans-serif;
 }
 
