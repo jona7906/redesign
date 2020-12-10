@@ -17,6 +17,13 @@ body {
     width: 100%;
 }
 
+header {
+    padding: 0px;
+    color: black;
+    position: relative;
+    height: 0;
+}
+
 h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
