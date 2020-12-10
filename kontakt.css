@@ -22,7 +22,7 @@ label {
   font-size: 24px;
   padding: 13px 0;
   color: #000000;
-  text-shadow: 1px 1px 1px #666;
+  /*text-shadow: 1px 1px 1px #666;*/
 }
 
 input {
@@ -36,7 +36,7 @@ input {
   border-radius: 6px;
   -webkit-box-shadow: 0 0 10px #444;
   -moz-box-shadow: 0 0 10px #444;
-  box-shadow: 0 0 10px #444;
+  /*box-shadow: 0 0 10px #444;*/
   border: 1px solid #fff;
 }
 
