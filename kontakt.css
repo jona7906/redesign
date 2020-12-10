@@ -1,3 +1,8 @@
+section {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
 label,
 input,
 button,
@@ -6,9 +11,11 @@ span {
     display: block;
 }
 
-/*section {
+.tekst {
     display: block;
-}*/
+    margin: auto;
+    width: 100%;
+}
 
 
 
@@ -21,6 +28,7 @@ span {
     width: 100%;
     max-width: 500px;
     box-sizing: border-box;
+    width:auto;
 }
 
 label {
