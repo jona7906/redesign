@@ -2,8 +2,6 @@ main {
     margin: 0;
     grid-gap: 1vw;
     display: grid;
-
-
 }
 
 video {
@@ -16,7 +14,6 @@ video {
     position: relative;
     overflow: hidden;
     height: 40vw;
-
 }
 
 .front_video_sprite {
@@ -30,7 +27,6 @@ video {
     left: 1vw;
     width: 60vw;
     height: 10vw;
-
 }
 
 .contact_container {
@@ -38,7 +34,6 @@ video {
     width: 100%;
     height: 10vw;
     overflow: hidden;
-
 }
 
 .contact_button {
@@ -46,14 +41,12 @@ video {
     position: absolute;
     width: 100%;
     bottom: 1vw;
-
 }
 
 .front_img_container {
     display: grid;
     grid-template-columns: 2fr 2fr;
     grid-gap: 1vw;
-
 }
 
 .front_img_01 {
@@ -74,7 +67,6 @@ video {
 .front_map {
     grid-column: 1/2;
     grid-row: 1/5;
-
 }
 
 .info_sprite_01 {
@@ -85,10 +77,8 @@ video {
 
 .info_text_01 {
     text-align: left;
-    background-color: lightslategray;
+    background-color: #D9DADF;
     width: 100%;
-
-
 }
 
 .social_container {
