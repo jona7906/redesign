@@ -131,3 +131,7 @@ video {
 .privatkunder_dropdown:hover .dropdown_undersider {
     display: block;
 }
+
+img:hover {
+    transform: scale(1.1);
+}
