@@ -39,7 +39,7 @@
         <div class="contact-form">
 
 
-            <form name="contact" netlify>
+            <form name="contact" method='post' netlify>
                 <p>
                     <label>Fulde navn <input type="text" name="name" /></label>
                 </p>
@@ -62,7 +62,10 @@
 
 
                 <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
-
+                <label>
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                </label>
 
 
 
