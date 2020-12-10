@@ -19,7 +19,11 @@ body {
 
 header {
     color: black;
-    padding: 10px;
+}
+
+nav {
+    text-transform: uppercase;
+    text-align: center;
 }
 
 h1 {
