@@ -61,6 +61,7 @@ footer {
     background-color: #BEC6CC;
     padding: 10px;
     position: fixed;
+    bottom: 0;
 }
 
 #footer_container {
