@@ -1,0 +1,95 @@
+main {
+    margin: 0;
+    grid-gap: 1vw;
+    display: grid;
+
+
+}
+
+video {
+    width: 100%;
+    position: relative;
+    z-index: 0;
+}
+
+.front_video {
+    position: relative;
+    overflow: hidden;
+    height: 40vw;
+
+}
+
+.front_video_sprite {
+    bottom: 15vw;
+}
+
+.front_text {
+    bottom: 6vw;
+    position: absolute;
+    z-index: 10;
+    left: 1vw;
+    width: 60vw;
+    height: 10vw;
+
+}
+
+.contact_container {
+    position: relative;
+    width: 100%;
+    height: 10vw;
+    overflow: hidden;
+
+}
+
+.contact_button {
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    bottom: 1vw;
+
+}
+
+.front_img_container {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 1vw;
+
+}
+
+.front_img_01 {
+    grid-column: 1/2;
+
+}
+
+.front_img_02 {
+    grid-column: 2/3;
+}
+
+.info_container_01 {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: 3fr 1fr;
+}
+
+.front_map {
+    grid-column: 1/2;
+    grid-row: 1/5;
+
+}
+
+.info_sprite_01 {
+    grid-column: 2/4;
+    grid-row: 4/5;
+}
+
+.info_text_01 {
+    text-align: center;
+}
+
+.social_container {
+    width: 100%;
+    height: 25vw;
+    position: relative;
+    display: block;
+    background-color: #BEC6CC;
+}
