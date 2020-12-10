@@ -62,23 +62,35 @@ video {
     display: grid;
     grid-template-columns: 3fr 1fr 1fr;
     grid-template-rows: 3fr 1fr;
+    grid-column-gap: 1vw;
+
 }
 
-.front_map {
+.front_map_01 {
     grid-column: 1/2;
     grid-row: 1/5;
+}
+
+.front_map_02 {
+    display: none;
 }
 
 .info_sprite_01 {
     grid-column: 2/4;
     height: 100%;
-    column-gap: 0vw;
+
 }
 
 .info_text_01 {
     text-align: left;
     background-color: #D9DADF;
     width: 100%;
+<<<<<<< HEAD
+    height: 100%;
+
+
+=======
+>>>>>>> redesign/master
 }
 
 .social_container {

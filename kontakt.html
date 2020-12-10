@@ -37,27 +37,83 @@
 
         <div class="contact-form">
 
-                <form id="contact" action="tak.html" name="kontakt" netlify accept-charset="utf-8" >
-                    <label><span>Emne</span><input name="emne" type="text" placeholder="Emne" /></label>
-                    <label><span>Fulde navn</span><input name="name" type="text" placeholder="Name" /></label>
-                    <label><span>Adresse</span><input name="adresse" type="text" placeholder="Adresse" /></label>
-                    <label><span>Postnummer og by</span><input name="postnummer og by" type="text" placeholder="Postnummer og by" /></label>
-                    <label><span>Mobilnummer</span><input name="mobilnummer" type="number" placeholder="Mobilnummer" /></label>
 
-                    <label><span>Email</span><input name="email" type="email" placeholder="Email" /></label>
-                    <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
+            <form name="contact" netlify>
+                <p>
+                    <label>Fulde navn <input type="text" name="name" /></label>
+                </p>
 
-                    <form action="upload.php" method="post" enctype="multipart/form-data">
-                        Select image to upload:
-                        <input type="file" name="fileToUpload" id="fileToUpload">
-                    </form>
+                <p>
+                    <label>Adresse <input type="text" name="adresse" /></label>
+                </p>
+
+                <p>
+                    <label>Postnummer og by <input type="text" name="postnummer og by" /></label>
+                </p>
+
+                <p>
+                    <label>Mobilnummer <input type="number" name="mobilnummer" /></label>
+                </p>
+
+                <p>
+                    <label>Email <input type="email" name="Email" /></label>
+                </p>
+
+
+                <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
 
 
 
+                <p>
+                    <button type="submit">Send</button>
+                </p>
 
 
-                    <input name="submit" type="submit" value="Send" />
+            </form>
+
+            <form id="contact" name="contact" accept-charset="utf-8" netlify>
+                <label><span>Emne</span><input name="emne" type="text" placeholder="Emne" /></label>
+                <label><span>Fulde navn</span><input name="name" type="text" placeholder="Name" /></label>
+                <label><span>Adresse</span><input name="adresse" type="text" placeholder="Adresse" /></label>
+                <label><span>Postnummer og by</span><input name="postnummer og by" type="text" placeholder="Postnummer og by" /></label>
+                <label><span>Mobilnummer</span><input name="mobilnummer" type="number" placeholder="Mobilnummer" /></label>
+
+                <label><span>Email</span><input name="email" type="email" placeholder="Email" /></label>
+                <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
+
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+
+
                 </form>
+                <input name="submit" type="submit" value="Send" />
+
+            </form>
+
+
+            <form id="contact" action="tak.html" name="kontakt" netlify accept-charset="utf-8">
+                <label><span>Emne</span><input name="emne" type="text" placeholder="Emne" /></label>
+                <label><span>Fulde navn</span><input name="name" type="text" placeholder="Name" /></label>
+                <label><span>Adresse</span><input name="adresse" type="text" placeholder="Adresse" /></label>
+                <label><span>Postnummer og by</span><input name="postnummer og by" type="text" placeholder="Postnummer og by" /></label>
+                <label><span>Mobilnummer</span><input name="mobilnummer" type="number" placeholder="Mobilnummer" /></label>
+
+                <label><span>Email</span><input name="email" type="email" placeholder="Email" /></label>
+                <label><span>Besked</span><textarea name="message" placeholder="Message"></textarea></label>
+
+                <form action="upload.php" method="post" enctype="multipart/form-data">
+                    Select image to upload:
+                    <input type="file" name="fileToUpload" id="fileToUpload">
+                </form>
+
+
+
+
+
+
+                <input name="submit" type="submit" value="Send" />
+            </form>
 
 
 
