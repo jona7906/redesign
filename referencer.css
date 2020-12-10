@@ -21,6 +21,10 @@ a {
     .sectionwrapper .billede {
         grid-column: 2/3;
     }
+
+    img {
+        padding-bottom: 20px;
+    }
 }
 
 .center {
@@ -32,4 +36,5 @@ a {
 
 img {
     padding-bottom: 20px;
+    padding-top: 15px;
 }
