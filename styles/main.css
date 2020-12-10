@@ -60,6 +60,7 @@ h3 {
 footer {
     background-color: #BEC6CC;
     padding: 10px;
+    position: fixed;
 }
 
 #footer_container {
