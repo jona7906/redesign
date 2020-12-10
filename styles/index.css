@@ -112,11 +112,12 @@ video {
 }
 
 .social_container {
-    width: 100%;
+    width: 50vw;
     height: 25vw;
     position: relative;
     display: block;
     background-color: #BEC6CC;
+    padding-bottom: 30px;
 }
 
 

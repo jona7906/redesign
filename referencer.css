@@ -1,5 +1,14 @@
+main {
+    margin: 0;
+}
+
 a {
     text-decoration: underline;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 25px;
 }
 
 #referencer {
@@ -11,14 +20,31 @@ a {
     .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-gap: 5px;
+        grid-gap: 10px;
     }
 
     .sectionwrapper .tekst {
         grid-column: 1/2;
+        margin: 5px 5px 0px 20px;
     }
 
     .sectionwrapper .billede {
         grid-column: 2/3;
     }
+
+    img {
+        padding-bottom: 20px;
+    }
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
