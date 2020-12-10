@@ -8,17 +8,17 @@ a {
 }
 
 @media (min-width:800px) {
-    #sectionwrapper {
+    .sectionwrapper {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-gap: 5px;
     }
 
-    #sectionwrapper .tekst {
+    .sectionwrapper .tekst {
         grid-column: 1/2;
     }
 
-    #sectionwrapper .billede {
+    .sectionwrapper .billede {
         grid-column: 2/3;
     }
 }
