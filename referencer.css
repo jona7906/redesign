@@ -7,4 +7,18 @@ a {
     margin-right: 10px;
 }
 
-@media (max-width)
+@media (min-width:800px) {
+    #referencer {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 5px;
+    }
+
+    #referencer .tekst {
+        grid-column: 1/2;
+    }
+
+    #referencer .billede {
+        grid-column: 2/3;
+    }
+}
