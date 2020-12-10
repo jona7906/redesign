@@ -62,6 +62,7 @@ footer {
     padding: 10px;
     position: fixed;
     bottom: 0;
+    padding-left: 15px;
 }
 
 footer h4 {
