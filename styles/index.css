@@ -2,6 +2,8 @@ main {
     margin: 0;
     grid-gap: 1vw;
     display: grid;
+    margin: 0 auto;
+    font-size: 1vw;
 }
 
 video {
@@ -14,6 +16,7 @@ video {
     position: relative;
     overflow: hidden;
     height: 40vw;
+    margin-bottom: 1vw;
 }
 
 .front_video_sprite {
@@ -27,6 +30,7 @@ video {
     left: 1vw;
     width: 60vw;
     height: 10vw;
+    font-size: 1.5vw;
 }
 
 .contact_container {
@@ -36,12 +40,20 @@ video {
     overflow: hidden;
 }
 
+.contact_container img {
+    margin-right: 1vw;
+}
+
+
 .contact_button {
     text-align: center;
     position: absolute;
     width: 100%;
     bottom: 1vw;
+
 }
+
+
 
 .front_img_container {
     display: grid;
