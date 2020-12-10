@@ -61,6 +61,16 @@ footer {
     background-color: #BEC6CC;
     padding: 10px;
     position: fixed;
+    bottom: 0;
+    padding-left: 15px;
+}
+
+footer h4 {
+    font-size: 1rem;
+}
+
+footer p {
+    font-size: 0.8rem;
 }
 
 #footer_container {
@@ -71,7 +81,6 @@ footer {
 
 .hilleroed1 {
     grid-column: 1/2;
-
 }
 
 .hilleroed2 {
