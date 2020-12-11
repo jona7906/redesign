@@ -121,8 +121,10 @@ video {
     margin-bottom: 2vw;
     margin-top: 2vw;
     width: 70vw;
+/*
     border-radius: 1vw;
     border: 1vw solid black;
+*/
     box-sizing: border-box;
     height: 25vw;
     position: relative;
