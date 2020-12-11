@@ -24,7 +24,7 @@ nav {
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 25px;
-    font-weight: 300;
+    font-weight: 400;
 }
 
 a {
@@ -50,7 +50,9 @@ h1 {
 h2,
 header,
 h4 {
-    font-family: 'Quicksand', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    /*    'Quicksand',
+sans-serif;*/
 }
 
 p,
@@ -112,9 +114,13 @@ footer p {
     .dropdown {
         position: relative;
         display: inline-block;
+        text-align: center;
+
+
     }
 
     .dropdown_undersider {
+        margin: auto;
         display: none;
         position: absolute;
         background-color: white;
