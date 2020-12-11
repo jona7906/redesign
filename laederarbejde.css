@@ -1,0 +1,45 @@
+section {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+@media (min-width:700px) {
+
+    h2 {
+        display: block;
+        margin: auto;
+        width: 900px;
+        margin-bottom: 25px;
+        margin-top: 19.92px;
+    }
+
+    .tekst {
+        display: block;
+        margin: auto;
+        width: 900px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    img {
+        padding-bottom: 20px;
+        padding-top: 20px;
+        display: block;
+        margin: auto;
+        width: 900px;
+    }
+}
