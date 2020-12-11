@@ -3,22 +3,11 @@
 }
 
 main {
-
-
     margin: 0 auto;
     max-width: 1080px;
     width: 100%;
     position: relative;
     min-height: 100vh;
-
-    margin: 0 auto;
-    max-width: 1080px;
-
-
-    width: 100%;
-    position: relative;
-    min-height: 100vh;
-
 }
 
 img {
@@ -28,18 +17,8 @@ img {
 body {
     margin: 0px;
     padding: 0px;
-
-
     width: 100%;
-
-
 }
-
-
-
-
-
-
 
 nav {
     text-transform: uppercase;
@@ -92,8 +71,6 @@ footer {
     padding-left: 15px;
 }
 
-
-
 footer h4 {
     font-size: 1rem;
 }
@@ -103,8 +80,6 @@ footer p {
 }
 
 @media (min-width:600px) {
-
-
     footer {
         height: 20rem;
     }
