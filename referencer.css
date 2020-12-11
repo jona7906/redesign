@@ -1,5 +1,6 @@
 main {
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .sectionwrapper a:link {
@@ -19,6 +20,23 @@ p {
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 1rem;
+}
+
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+img {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.sectionwrapper .img {
+    padding-bottom: 40px;
 }
 
 @media (min-width:800px) {
@@ -46,20 +64,4 @@ p {
     img {
         padding-bottom: 20px;
     }
-}
-
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-}
-
-img {
-    padding-bottom: 20px;
-    padding-top: 20px;
-}
-
-.sectionwrapper .img {
-    padding-bottom: 40px;
 }

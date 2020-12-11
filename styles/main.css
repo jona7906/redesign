@@ -20,55 +20,7 @@ body {
     width: 100%;
 }
 
-.burger_menu {
-    display: inline-block;
-    position: relative;
-    width: 100%;
-
-
-
-}
-
-.burger_menu img {
-    width: 20vw;
-    margin-left: 40vw;
-
-}
-
-.burger_menu_undersider {
-    margin: auto;
-    display: none;
-    position: absolute;
-    background-color: white;
-    /*min-width: 10vw;*/
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-    width: 28vw;
-}
-
-.burger_menu_undersider a {
-    width: 10vw;
-    position: relative;
-}
-
-.burger_menu_undersider a:hover {
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-
-
-}
-
-.burger_menu:hover .burger_menu_undersider {
-    display: block;
-    position: relative;
-
-}
-
-
-
 nav {
-    display: none;
     text-transform: uppercase;
     text-align: center;
     padding-bottom: 25px;
@@ -118,9 +70,15 @@ footer {
     float: right;
     bottom: 0;
     width: 100%;
+
     /*height: 72rem;*/
     padding-left: 20px;
     padding-right: 20px;
+
+    height: 72rem;
+    padding-left: 50px;
+    padding-right: 10px;
+
 }
 
 footer h4 {
@@ -132,15 +90,6 @@ footer p {
 }
 
 @media (min-width:650px) {
-
-    .burger_menu {
-        display: none;
-    }
-
-    nav {
-        display: block;
-    }
-
     footer {
         height: 21rem;
     }
@@ -167,8 +116,6 @@ footer p {
     .karslunde2 {
         grid-column: 4/5;
     }
-
-
 
     .dropdown {
         position: relative;

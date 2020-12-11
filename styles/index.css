@@ -13,6 +13,7 @@ video {
     overflow: hidden;
     height: 40vw;
     margin-bottom: 10vw;
+    margin-top: 5px;
 }
 
 .front_video_sprite {
@@ -48,8 +49,7 @@ video {
     position: absolute;
     width: 100%;
     bottom: 1vw;
-    font-size: 2vw;
-
+    font-size: 1.75vw;
 }
 
 
@@ -82,19 +82,20 @@ video {
     grid-template-columns: 2fr 2fr;
     grid-gap: 5vw;
     margin-bottom: 10vw;
-
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .social_container {
-    margin-bottom: 2vw;
-    margin-top: 2vw;
-    width: 70vw;
+    margin-bottom: 10vw;
+    margin-top: 10vw;
+    width: 55vw;
     /*
     border-radius: 1vw;
     border: 1vw solid black;
 */
     box-sizing: border-box;
-    height: 25vw;
+    height: 20vw;
     position: relative;
     background: url(../images/cover_billed_facebook.JPG);
     background-size: cover;
