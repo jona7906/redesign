@@ -22,7 +22,11 @@ p {
 }
 
 h4 {
-     font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+.billede {
+    padding-bottom: 20px;
 }
 
 @media (min-width:700px) {
