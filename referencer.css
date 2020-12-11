@@ -2,6 +2,11 @@ main {
     margin: auto;
 }
 
+a:link {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
 h2 {
     margin-bottom: 25px;
 }
