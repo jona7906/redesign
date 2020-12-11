@@ -22,17 +22,12 @@ img {
 body {
     margin: 0px;
     padding: 0px;
-<<<<<<< HEAD
     width: 100%;
-
-=======
 }
 
-section {
-    max-width: 1100px;
-    margin: 0 auto;
->>>>>>> redesign/master
-}
+
+
+
 
 nav {
     text-transform: uppercase;
