@@ -1,0 +1,20 @@
+main {
+    margin: auto;
+}
+
+#reparation {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+h4 {
+    font-family: 'Roboto', sans-serif;
+}
