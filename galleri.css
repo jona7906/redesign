@@ -7,7 +7,7 @@ h2 {
     display: block;
     margin: auto;
     width: 850px;
-    margin-bottom: 25px;
+    margin-bottom: 35px;
     margin-top: 19.92px;
 }
 
@@ -102,7 +102,7 @@ img {
     }
 
     .galleribilleder {
-    margin-left: 200px;
-    margin-right: 200px;
-}
+        margin-left: 200px;
+        margin-right: 200px;
+    }
 }
