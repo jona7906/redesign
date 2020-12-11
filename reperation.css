@@ -30,3 +30,11 @@ img {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+@media (min-width:900px) {
+    main {
+        display: block;
+        width: 900px;
+        margin: auto;
+    }
+}
