@@ -9,6 +9,10 @@ h2 {
     margin-bottom: 25px;
 }
 
+p {
+    line-height: 1.25;
+}
+
 #referencer {
     margin-left: 10px;
     margin-right: 10px;
