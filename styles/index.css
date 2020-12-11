@@ -121,8 +121,10 @@ video {
     margin-bottom: 2vw;
     margin-top: 2vw;
     width: 70vw;
+/*
     border-radius: 1vw;
     border: 1vw solid black;
+*/
     box-sizing: border-box;
     height: 25vw;
     position: relative;
@@ -167,7 +169,7 @@ video {
     color: aliceblue;
 }
 
-.privatkunder_dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
 }
@@ -187,6 +189,6 @@ video {
     box-sizing: border-box;
 }
 
-.privatkunder_dropdown:hover .dropdown_undersider {
+.dropdown:hover .dropdown_undersider {
     display: block;
 }
