@@ -1,5 +1,8 @@
 main {
     margin: 0;
+    display: block;
+    width: 1000px;
+    width: 100%;
 }
 
 a {
