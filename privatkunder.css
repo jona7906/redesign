@@ -13,6 +13,10 @@ h2 {
     margin-bottom: 25px;
 }
 
+p {
+    line-height: 1.1;
+}
+
 #privatkunder {
     padding-bottom: 20rem;
 }
