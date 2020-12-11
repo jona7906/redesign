@@ -1,7 +1,3 @@
-main {
-    width: 900px;
-}
-
 #erhverv {
     margin-left: 10px;
     margin-right: 10px;
@@ -21,4 +17,12 @@ img {
 
 p {
     line-height: 1.6;
+}
+
+@media (min-width:900px) {
+    main {
+        display: block;
+        width: 900px;
+        margin: auto;
+    }
 }
