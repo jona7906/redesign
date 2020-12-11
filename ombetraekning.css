@@ -77,4 +77,8 @@ img {
     img {
         padding-bottom: 20px;
     }
+
+    .billede img {
+        padding-top: 20px;
+    }
 }
