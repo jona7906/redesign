@@ -2,7 +2,7 @@ main {
     margin: auto;
 }
 
-a:link {
+.sectionwrapper a:link {
     font-weight: 600;
     text-decoration: underline;
 }
