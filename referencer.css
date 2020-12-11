@@ -1,5 +1,6 @@
 main {
     margin: auto;
+    margin-bottom: 60px;
 }
 
 .sectionwrapper a:link {
@@ -44,7 +45,6 @@ img {
         margin: auto;
         display: block;
         width: 900px;
-        margin-bottom: 50px;
     }
 
     .sectionwrapper {
