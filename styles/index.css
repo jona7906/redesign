@@ -1,5 +1,5 @@
 main {
-    margin: 0;
+
     grid-gap: 1vw;
     display: grid;
     margin: 0 auto;
@@ -138,10 +138,6 @@ video {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 25vw;
-
-
-
-
 }
 
 .facebook_like {

@@ -3,6 +3,15 @@
 }
 
 main {
+<<<<<<< HEAD
+
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    position: relative;
+    min-height: 100vh;
+
+=======
     <<<<<<< HEAD margin: 0 auto;
     max-width: 1080px;
 
@@ -11,6 +20,7 @@ main {
     position: relative;
     min-height: 100vh;
     > > > > > > > redesign/master
+>>>>>>> redesign/master
 }
 
 img {
@@ -20,10 +30,20 @@ img {
 body {
     margin: 0px;
     padding: 0px;
+<<<<<<< HEAD
+
+    width: 100%;
+
+
+}
+=======
     width: 100%;
 }
 
 
+
+
+>>>>>>> redesign/master
 
 
 
