@@ -18,7 +18,9 @@ span {
     width: 100%;
 }
 
-
+p {
+    line-height: 1.25;
+}
 
 .contact-form {
     margin: 30px auto;
@@ -166,4 +168,35 @@ button {
 label {
     text-transform: uppercase;
     font-size: 14px;
+}
+
+
+
+@media (min-width:700px) {
+
+    h2 {
+        display: block;
+        margin: auto;
+        width: 700px;
+        margin-bottom: 25px;
+        margin-top: 19.92px;
+    }
+
+    .tekst {
+        display: block;
+        margin: auto;
+        width: 700px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    img {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
 }

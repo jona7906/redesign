@@ -1,14 +1,16 @@
 main {
     margin: 0;
-}
-
-a {
-    text-decoration: underline;
+    display: block;
+    width: 1000px;
+    width: 100%;
 }
 
 h2 {
-    text-align: center;
     margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.25;
 }
 
 #referencer {
@@ -25,7 +27,6 @@ h2 {
 
     .sectionwrapper .tekst {
         grid-column: 1/2;
-        margin: 5px 5px 0px 20px;
     }
 
     .sectionwrapper .billede {
