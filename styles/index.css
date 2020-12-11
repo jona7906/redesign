@@ -12,7 +12,7 @@ video {
     position: relative;
     overflow: hidden;
     height: 40vw;
-    margin-bottom: 1vw;
+    margin-bottom: 10vw;
 }
 
 .front_video_sprite {
@@ -34,7 +34,7 @@ video {
     width: 100%;
     height: 10vw;
     overflow: hidden;
-    margin-bottom: 1vw;
+    margin-bottom: 10vw;
 
 }
 
@@ -107,7 +107,7 @@ video {
 .facebook_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 25vw;
+    height: 20vw;
 }
 
 .facebook_like {
