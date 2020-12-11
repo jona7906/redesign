@@ -13,6 +13,7 @@ video {
     overflow: hidden;
     height: 40vw;
     margin-bottom: 10vw;
+    margin-top: 5px;
 }
 
 .front_video_sprite {
