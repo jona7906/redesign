@@ -107,7 +107,7 @@ video {
 .facebook_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    height: 25vw;
+    height: 20vw;
 }
 
 .facebook_like {
