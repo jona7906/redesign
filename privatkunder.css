@@ -1,4 +1,4 @@
-main {
+section {
     margin: auto;
 }
 
@@ -32,7 +32,7 @@ img {
 }
 
 @media (min-width:900px) {
-    main {
+    section {
         display: block;
         width: 900px;
         margin: auto;
