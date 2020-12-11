@@ -12,6 +12,10 @@ section {
     padding-top: 20px;
 }
 
+p {
+    line-height: 1.6;
+}
+
 @media (min-width:700px) {
 
     h2 {
