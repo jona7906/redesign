@@ -80,8 +80,8 @@ video {
 .front_img_container {
     display: grid;
     grid-template-columns: 2fr 2fr;
-    grid-gap: 1vw;
-    margin-bottom: 1vw;
+    grid-gap: 5vw;
+    margin-bottom: 10vw;
 
 }
 
