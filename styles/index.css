@@ -169,7 +169,7 @@ video {
     color: aliceblue;
 }
 
-.privatkunder_dropdown {
+.dropdown {
     position: relative;
     display: inline-block;
 }
@@ -189,6 +189,6 @@ video {
     box-sizing: border-box;
 }
 
-.privatkunder_dropdown:hover .dropdown_undersider {
+.dropdown:hover .dropdown_undersider {
     display: block;
 }
