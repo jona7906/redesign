@@ -1,18 +1,17 @@
 * {
     box-sizing: border-box;
+    margin: 0;
 }
 
 main {
-<<<<<<< HEAD
-    margin: 0 auto;
+    <<<<<<< HEAD margin: 0 auto;
     max-width: 1080px;
 
 
-=======
-    width: 100%;
+    =======width: 100%;
     position: relative;
     min-height: 100vh;
->>>>>>> redesign/master
+    > > > > > > > redesign/master
 }
 
 img {
