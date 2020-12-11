@@ -37,4 +37,8 @@ img {
         width: 900px;
         margin: auto;
     }
+
+    footer {
+        height: 21rem;
+    }
 }
