@@ -1,12 +1,12 @@
 main {
     display: block;
     width: 1000px;
+    width: 100%;
 }
 
 #privatkunder {
     margin-left: auto;
     margin-right: auto;
-
 }
 
 h2 {
