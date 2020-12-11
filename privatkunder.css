@@ -5,6 +5,7 @@ main {
 #privatkunder {
     margin-left: 10px;
     margin-right: 10px;
+    padding-bottom: 20rem;
 }
 
 h2 {
@@ -13,10 +14,6 @@ h2 {
 
 p {
     line-height: 1.6;
-}
-
-#privatkunder {
-    padding-bottom: 20rem;
 }
 
 .center {
