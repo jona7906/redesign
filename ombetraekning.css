@@ -37,7 +37,7 @@ img {
 
 .billede img {
     padding: 0px;
-    padding-top: 80px;
+    padding-top: 20px;
 }
 
 @media (min-width:900px) {
@@ -79,6 +79,6 @@ img {
     }
 
     .billede img {
-        padding-top: 20px;
+        padding-top: 80px;
     }
 }
