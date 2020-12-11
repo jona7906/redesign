@@ -1,8 +1,7 @@
 main {
-    margin: 0;
+    margin: auto;
     display: block;
-    width: 1000px;
-    width: 100%;
+    width: 800px;
 }
 
 h2 {
