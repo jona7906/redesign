@@ -92,7 +92,8 @@ sans-serif;*/
 p,
 article,
 label,
-h3 {
+h3,
+h5 {
     font-family: 'Roboto', sans-serif;
 }
 
