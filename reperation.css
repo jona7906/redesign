@@ -31,6 +31,10 @@ img {
     padding-top: 20px;
 }
 
+.billede img {
+    width: 100%;
+}
+
 .tekst2 {
     padding-bottom: 20px;
 }
@@ -41,4 +45,9 @@ img {
         width: 900px;
         margin: auto;
     }
+
+    .billede img {
+    width:700px;
+        height:450px;
+}
 }
