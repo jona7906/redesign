@@ -33,11 +33,14 @@ h4 {
 img {
     padding-bottom: 20px;
     padding-top: 20px;
+
+
 }
 
 .billede img {
     padding: 0px;
     padding-top: 50px;
+    width:100%;
 }
 
 @media (min-width:900px) {
@@ -76,9 +79,13 @@ img {
 
     img {
         padding-bottom: 20px;
+
     }
+
 
     .billede img {
         padding-top: 80px;
+        width:443px;
+    height:459px;
     }
 }
