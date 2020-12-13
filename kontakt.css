@@ -1,7 +1,11 @@
-section {
+#kontaktform {
+
+    padding-bottom: 8rem;
+}
+
+section{
     margin-left: 10px;
     margin-right: 10px;
-    padding-bottom: 8rem;
 }
 
 label,

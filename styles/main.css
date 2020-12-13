@@ -132,9 +132,6 @@ footer p {
         display: block;
     }
 
-    footer {
-        height: 21rem;
-    }
 
     #footer_container {
         display: grid;
