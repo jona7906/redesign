@@ -167,7 +167,7 @@ video {
 }
 
 .info_text_01 h5:hover {
-    color: green;
+    text-decoration: underline;
 }
 
 
