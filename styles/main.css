@@ -44,8 +44,12 @@ body {
     height: 20px;
     margin-top: 16vw;
     float: left;
+    margin-left: 35vw;
+}
 
-
+.burger_menu img {
+    width: 20vw;
+    height: 20vw;
 
 }
 
