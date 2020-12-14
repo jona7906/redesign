@@ -170,7 +170,7 @@ footer p {
     display: block;
 }
 
-@media (min-width:650px) {
+@media (min-width:660px) {
 
     h1 {
         font-size: 2rem;
