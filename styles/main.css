@@ -24,6 +24,7 @@ body {
     position: relative;
     display: inline-block;
     text-align: left;
+
     top: 3vw;
 }
 
@@ -31,6 +32,13 @@ body {
     width: 25px;
     height: 25px;
     margin-left: 4vw;
+
+}
+
+.burger_menu img {
+    width: 20vw;
+    height: 20vw;
+
 }
 
 .burger_menu_undersider {
