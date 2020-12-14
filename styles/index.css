@@ -190,8 +190,8 @@ video {
         grid-template-columns: 2fr 2fr;
         grid-gap: 5vw;
         margin-bottom: 10vw;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
     .sectionwrapper {
@@ -310,7 +310,7 @@ video {
         grid-template-columns: 3fr 1fr 1fr;
         grid-template-rows: 3fr 1fr;
         grid-column-gap: 1vw;
-
+        padding-bottom: 30px;
     }
 
     .front_map_01 {
