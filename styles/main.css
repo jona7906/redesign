@@ -48,7 +48,7 @@ body {
 
 .burger_menu img {
     width: 36px;
-height: 112px;
+    height: 112px;
     margin-left: 4vw;
     padding: 0;
 
@@ -102,6 +102,7 @@ h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
     letter-spacing: 2px;
+    font-size: 1.5rem;
 }
 
 h2,
@@ -171,6 +172,10 @@ footer p {
 }
 
 @media (min-width:650px) {
+
+    h1 {
+        font-size: 2rem;
+    }
 
     .burger_menu {
         display: none;
