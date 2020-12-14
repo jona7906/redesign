@@ -21,17 +21,17 @@ body {
 }
 
 .burger_menu {
-    position: absolute;
+    position: relative;
     display: inline-block;
     text-align: left;
-<<<<<<< HEAD
+
     margin-left: 35vw;
 }
 
 .burger_menu img {
     width: 20vw;
     height: 20vw;
-=======
+
     margin-left: 2vw;
 
 
@@ -46,7 +46,7 @@ body {
     float: left;
 
 
->>>>>>> parent of 082ab36... Revert "burger fix 1"
+
 }
 
 .burger_menu_undersider {
