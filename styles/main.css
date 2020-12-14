@@ -24,33 +24,13 @@ body {
     position: relative;
     display: inline-block;
     text-align: left;
-
-    margin-left: 35vw;
+    top: 3vw;
 }
 
 .burger_menu img {
-    width: 20vw;
-    height: 20vw;
-
-    margin-left: 2vw;
-
-
-
-
-}
-
-.burger_menu img {
-    width: 20px;
-    height: 20px;
-    margin-top: 16vw;
-    float: left;
-    margin-left: 35vw;
-}
-
-.burger_menu img {
-    width: 20vw;
-    height: 20vw;
-
+    width: 25px;
+    height: 25px;
+    margin-left: 4vw;
 }
 
 .burger_menu_undersider {
