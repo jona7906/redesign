@@ -24,12 +24,14 @@ body {
     position: relative;
     display: inline-block;
     text-align: left;
-    margin-left: 35vw;
+    margin-left: 0vw;
+
 }
 
 .burger_menu img {
-    width: 20vw;
-    height: 20vw;
+    width: 20px;
+    height: 20px;
+
 }
 
 .burger_menu_undersider {
