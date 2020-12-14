@@ -171,6 +171,11 @@ footer p {
     display: block;
 }
 
+
+.info_tekst {
+    text-align: center;
+}
+
 @media (min-width:650px) {
 
     h1 {
@@ -238,6 +243,8 @@ footer p {
     }*/
 }
 
-.info_tekst {
-    text-align: center;
+@media (min-width:950px) {
+    nav {
+        font-size: 0.9rem;
+    }
 }
