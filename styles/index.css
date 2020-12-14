@@ -8,6 +8,19 @@ video {
     z-index: 0;
 }
 
+.logo_burger {
+    display: grid;
+    grid-template-columns: auto 1fr;
+}
+
+.burger_menu {
+    grid-column: 1/2;
+}
+
+.index {
+    grid-column: 2/3;
+}
+
 .front_video {
     position: relative;
     overflow: hidden;
@@ -169,6 +182,8 @@ video {
 .info_text_01 h5:hover {
     color: green;
 }
+
+
 
 
 
