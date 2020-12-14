@@ -259,7 +259,6 @@ footer p {
     a {
         padding-left: 5px;
         padding-right: 5px;
-        width: 100%;
     }
 }
 
@@ -276,5 +275,10 @@ footer p {
 @media (min-width:950px) {
     nav {
         font-size: 0.95rem;
+    }
+
+     a {
+        padding-left: 8px;
+        padding-right: 8px;
     }
 }
