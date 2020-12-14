@@ -173,7 +173,7 @@ footer p {
 }
 
 
-@media (min-width:660px) {
+@media (min-width:661px) {
 
 
 .info_tekst {
@@ -247,7 +247,7 @@ footer p {
     }*/
 }
 
-@media(min-width:700px) {
+@media(min-width:716px) {
     h1 {
         font-size: 2rem;
     }
