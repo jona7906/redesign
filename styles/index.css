@@ -8,6 +8,10 @@ video {
     z-index: 0;
 }
 
+h5 {
+    text-decoration: underline;
+}
+
 .front_video {
     position: relative;
     overflow: hidden;
