@@ -149,10 +149,10 @@ video {
 
 }
 
-
 .hide_map {
     display: none;
 }
+
 
 .info_sprite_01 {
     grid-column: 2/4;
