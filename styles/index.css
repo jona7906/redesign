@@ -8,6 +8,10 @@ video {
     z-index: 0;
 }
 
+.sectionwrapper {
+    margin-left: 25px;
+    margin-right: 25px;
+}
 
 .front_video {
     position: relative;
@@ -187,7 +191,10 @@ video {
         padding-right: 5px;
     }
 
-
+    .sectionwrapper {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
 
     .contact_container {
         margin-right: auto;
