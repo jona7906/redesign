@@ -244,9 +244,9 @@ footer p {
     }*/
 }
 
-@media(min-width:750px) {
+@media(min-width:650px) {
     nav {
-        font-size: 0.85rem;
+        font-size: 0.8rem;
     }
 
     a {
@@ -256,7 +256,7 @@ footer p {
     }
 }
 
-@media(min-width:850px) {
+@media(min-width:750px) {
     nav {
         font-size: 0.85rem;
     }
