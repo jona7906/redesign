@@ -23,6 +23,24 @@ p {
     width: 50%;
 }
 
+.billede_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 40px;
+}
+
+.billede_container .billede1 {
+    grid-column: 1/2;
+}
+
+.billede_container .billede2 {
+    grid-column: 2/3;
+}
+
+.billede_container .billede3 {
+    grid-column: 3/4;
+}
+
 @media (min-width:900px) {
     main {
         display: block;
