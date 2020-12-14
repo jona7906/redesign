@@ -1,0 +1,46 @@
+main {
+    margin: auto;
+}
+
+#om_buhls {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-bottom: 20rem;
+}
+
+h2 {
+    margin-bottom: 25px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+@media (min-width:900px) {
+    main {
+        display: block;
+        width: 900px;
+        margin: auto;
+    }
+
+    .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .sectionwrapper .tekst {
+        grid-column: 1/2;
+    }
+
+    .sectionwrapper .billede {
+        grid-column: 2/3;
+    }
+}
