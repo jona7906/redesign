@@ -29,3 +29,18 @@ p {
         width: 900px;
         margin: auto;
     }
+
+    .sectionwrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .sectionwrapper .tekst {
+        grid-column: 1/2;
+    }
+
+    .sectionwrapper .billede {
+        grid-column: 2/3;
+    }
+}
