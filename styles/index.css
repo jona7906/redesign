@@ -38,7 +38,7 @@ video {
     width: 50vw;
     height: 10vw;
     overflow: hidden;
-    margin-bottom: 10vw;
+    margin-bottom: 12vw;
     background-color: lightgray;
 }
 
@@ -78,7 +78,7 @@ video {
 
 .front_img_container {
 
-    margin-bottom: 10vw;
+    margin-bottom: 15vw;
     padding-left: 5px;
     padding-right: 5px;
 }
