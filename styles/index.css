@@ -112,40 +112,29 @@ video {
 }
 
 .facebook_like {
-    margin-left: 0vw;
-    margin-top: 4vw;
-    grid-column: 2/3;
+    margin-left: 15vw;
+    margin-top: 5vw;
+    grid-column: 1/3;
     display: grid;
-    width: 20vw;
+    width: 50vw;
     grid-template-columns: 2fr 3fr;
 }
 
 .facebook_like img {
     border: 0.5vw solid white;
-    margin-left: -5vw;
-    width: 12vw;
-    height: 12vw;
+    margin: 0vw;
+    width: 15vw;
+    height: 15vw;
     grid-column: 1/2;
 }
 
 .facebook_text {
-    margin-left: 2vw;
+    margin-left: -3vw;
     margin-top: -2.5vw;
     grid-column: 2/3;
-    width: 30vw;
+    width: 100%;
     color: aliceblue;
-    font-size: 1.25vw;
-}
-
-.facebook_like_button_small {
-
-    margin-top: -1.4vw;
-}
-
-.facebook_like_button_medium {
-
-    margin-top: -1.4vw;
-    display: none;
+    font-size: 1vw;
 }
 
 .facebook_text h2 {
@@ -194,23 +183,8 @@ video {
 
     }
 
-    .facebook_like img {
 
-        margin-left: -3vw;
-
-    }
-
-    .facebook_like_button_small {
-
-
-        display: none;
-    }
-
-    .facebook_like_button_medium {
-
-        margin-top: -1.4vw;
-        display: block;
-    }
+    .facebook_like_button {}
 
     .front_img_01 {
         grid-column: 1/2;
