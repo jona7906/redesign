@@ -244,7 +244,7 @@ footer p {
     }*/
 }
 
-@media(min-width:650px) {
+@media(min-width:700px) {
     h1 {
         font-size: 2rem;
     }
