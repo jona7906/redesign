@@ -39,6 +39,7 @@ body {
     position: relative;
     display: inline-block;
     text-align: left;
+<<<<<<< HEAD
 
     top: 3vw;
 }
@@ -54,6 +55,14 @@ body {
     width: 20vw;
     height: 20vw;
 
+=======
+    margin-left: 35vw;
+}
+
+.burger_menu img {
+    width: 20vw;
+    height: 20vw;
+>>>>>>> parent of dc0d8a1... facebook fix 1
 }
 
 .burger_menu_undersider {
