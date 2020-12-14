@@ -3,8 +3,8 @@ main {
 }
 
 #privatkunder {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 15px;
+    margin-right: 15px;
     padding-bottom: 20rem;
 }
 
@@ -43,6 +43,6 @@ img {
 
 @media (min-width:1310px) {
     footer {
-        height:19rem;
+        height: 19rem;
     }
 }
