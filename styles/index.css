@@ -176,9 +176,13 @@ video {
     color: green;
 }
 
+.front_img_01 {
+    padding-bottom: 50px;
+}
 
-
-
+.front_img_02 {
+    padding-bottom: 50px;
+}
 
 @media (min-width: 600px) {
 
@@ -219,11 +223,17 @@ video {
 @media (min-width:900px) {
 
     main {
-
         grid-gap: 1vw;
         display: grid;
         margin: 0 auto;
+    }
 
+    .front_img_01 {
+        padding-bottom: 10px;
+    }
+
+    .front_img_02 {
+        padding-bottom: 10px;
     }
 
     .contact_container {
