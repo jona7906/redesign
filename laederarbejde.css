@@ -29,7 +29,7 @@ h4 {
     padding-bottom: 20px;
 }
 
-@media (min-width:700px) {
+@media (min-width:900px) {
 
     h2 {
         display: block;
