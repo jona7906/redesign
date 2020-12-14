@@ -27,6 +27,8 @@ p {
 
 video {
     width: 100%;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 .billede_container {
@@ -69,6 +71,6 @@ video {
     }
 
     video {
-    width: 860px;
-}
+        width: 860px;
+    }
 }
