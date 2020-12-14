@@ -21,22 +21,16 @@ body {
 }
 
 .burger_menu {
-    position: absolute;
+    position: relative;
     display: inline-block;
     text-align: left;
-    margin-left: 2vw;
-
-
-
+    margin-left: 0vw;
 
 }
 
 .burger_menu img {
     width: 20px;
     height: 20px;
-    margin-top: 16vw;
-    float: left;
-
 
 }
 
