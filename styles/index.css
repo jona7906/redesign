@@ -259,6 +259,8 @@ video {
     .social_container {
         width: 700px;
         height: 250px;
+        margin-bottom: 15px;
+        margin-top: 15px;
     }
 
     .facebook_container {
