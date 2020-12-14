@@ -40,15 +40,14 @@ body {
     display: inline-block;
     text-align: left;
     height: 25px;
-
-
-    top: 3vw;
+    z-index: 10;
+    top: 40px;
 }
 
 
 .burger_menu img {
     width: 36px;
-    height: 112px;
+    height: 25px;
     margin-left: 4vw;
     padding: 0;
 
