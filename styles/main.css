@@ -117,12 +117,13 @@ sans-serif;*/
 p,
 article,
 label,
-h3 {
+h3,
+h5 {
     font-family: 'Roboto', sans-serif;
 }
 
 footer {
-    background-color: #BEC6CC;
+    background-color: #ADB7BF;
     /*padding: 10px;*/
     /*position: absolute;*/
     float: right;
