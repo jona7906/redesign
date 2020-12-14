@@ -3,8 +3,8 @@ main {
 }
 
 #reparation {
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 p {
@@ -47,7 +47,7 @@ img {
     }
 
     .billede img {
-    width:700px;
-        height:450px;
-}
+        width: 700px;
+        height: 450px;
+    }
 }
