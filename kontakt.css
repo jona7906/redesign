@@ -172,7 +172,21 @@ button {
 label {
     text-transform: uppercase;
     font-size: 14px;
+
+
 }
+
+.center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+
+    img {
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
 
 
 
