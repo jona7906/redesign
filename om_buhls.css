@@ -25,6 +25,10 @@ p {
     padding-top: 20px;
 }
 
+video {
+    width: 100%;
+}
+
 .billede_container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -63,4 +67,8 @@ p {
     .sectionwrapper .billede {
         grid-column: 2/3;
     }
+
+    video {
+    width: 860px;
+}
 }
