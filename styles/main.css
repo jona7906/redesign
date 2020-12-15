@@ -33,9 +33,7 @@ img {
 
 }
 
-img {
-
-}
+img {}
 
 
 
@@ -206,19 +204,20 @@ footer p {
 @media (min-width:661px) {
 
 
-    .logo_burger{
+    .logo_burger {
         display: block;
     }
 
     .logo {
-    width: 26vw;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 17px;
-    display: block;
+        width: 26vw;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 17px;
+        display: block;
         padding-bottom: 20px;
-    padding-top: 5px;
-}
+        padding-top: 5px;
+    }
+
     /*.index {
         margin-left: auto;
         margin-right: auto;
@@ -297,23 +296,6 @@ footer p {
     }*/
 
 
-        h2 {
-    font-size: 1.2rem;
-}
-
-h3 {
-    font-size: 1.05rem;
-}
-
-
-
-h4 {
-    font-size: 0.9rem;
-}
-
-p {
-    font-size: 0.9rem;
-}
     }
 
     @media(min-width:716px) {
@@ -329,6 +311,24 @@ p {
             padding-left: 5px;
             padding-right: 5px;
         }
+
+        h2 {
+            font-size: 1.4rem;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+        }
+
+
+
+        h4 {
+            font-size: 1.05rem;
+        }
+
+        p {
+            font-size: 1rem;
+        }
     }
 
     @media(min-width:772px) {
@@ -342,6 +342,8 @@ p {
 
 
 
+
+
     }
 
     @media (min-width:993px) {
@@ -352,6 +354,25 @@ p {
         a {
             padding-left: 9px;
             padding-right: 9px;
+        }
+
+
+         h2 {
+            font-size: 1.5rem;
+        }
+
+        h3 {
+            font-size: 1.25rem;
+        }
+
+
+
+        h4 {
+            font-size: 1.1rem;
+        }
+
+        p {
+            font-size: 1.05rem;
         }
 
         /*.udfor {
