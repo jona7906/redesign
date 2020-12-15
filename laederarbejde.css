@@ -16,10 +16,21 @@ p {
     line-height: 1.6;
 }
 
+
 #laederarbejde a:link {
     font-weight: 600;
     text-decoration: underline;
+
 }
+
+.ref_link:hover {
+    color: dimgrey;
+    text-decoration-line: underline;
+
+}
+
+
+
 
 h4 {
     font-family: 'Roboto', sans-serif;
