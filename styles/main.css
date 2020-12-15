@@ -209,12 +209,12 @@ footer p {
     }
 
     .logo {
-        width: 26vw;
+        width: 23vw;
         margin-left: auto;
         margin-right: auto;
         margin-top: 17px;
         display: block;
-        padding-bottom: 20px;
+        padding-bottom: 9px;
         padding-top: 5px;
     }
 
@@ -357,7 +357,7 @@ footer p {
         }
 
 
-         h2 {
+        h2 {
             font-size: 1.5rem;
         }
 
