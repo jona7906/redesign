@@ -8,6 +8,10 @@ main {
     padding-bottom: 15rem;
 }
 
+h1 {
+    color: #9cabb7;
+}
+
 h2 {
     margin-bottom: 25px;
 }
