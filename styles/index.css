@@ -39,14 +39,22 @@ h5 {
 
 
 .contact_container {
-    margin-right: auto;
-    margin-left: auto;
+    /*margin-right: auto;
+    margin-left: auto;*/
+    margin-left: 5vw;
     position: relative;
     width: 50vw;
     height: 10vw;
     overflow: hidden;
     margin-bottom: 15vw;
     background-color: lightgray;
+    margin-top: -34vw;
+    opacity: 50%;
+    border: 1px white solid;
+}
+
+.contact_container:hover {
+    opacity: 100%;
 }
 
 
