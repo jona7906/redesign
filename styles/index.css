@@ -31,9 +31,12 @@ h5 {
     left: 0vw;
     width: 100%;
     height: 10vw;
-    font-size: 3vw;
     padding: 0px 30px 30px 30px;
     top: 70vw;
+}
+
+.front_text p {
+    line-height: 1.6;
 }
 
 
@@ -61,8 +64,13 @@ h5 {
     text-align: center;
     position: absolute;
     width: 100%;
-    top: -4px;
+    top: -12px;
     font-size: 3vw;
+}
+
+.contact_button p {
+    font-size: 3vw;
+    margin-top: 7vw;
 }
 
 
@@ -94,6 +102,7 @@ h5 {
     margin-bottom: 15vw;
     padding-left: 85px;
     padding-right: 85px;
+
 }
 
 .social_container {
@@ -143,17 +152,21 @@ h5 {
     position: relative;
     top: -24vw;
     width: 100%;
-    font-size: 2vw;
     left: 23vw;
 }
 
 .facebook_text h2 {
 
     color: aliceblue;
+    font-size: 3vw;
 }
 
 .facebook_like_button {
     margin-top: -4vw;
+}
+
+.front_map_01 {
+    height: 45vw;
 }
 
 .info_container_01 {
@@ -172,13 +185,15 @@ h5 {
     height: 100%;
     grid-row: 1/6;
     text-align: left;
-    background-color: #D9DADF;
+    background-color: #CDCABF;
     width: 100%;
+    padding-bottom: 1px;
+    padding-top: 1px;
 
 }
 
 .info_text_01 {
-    margin-left: 1vw;
+    margin-left: 3vw;
     cursor: pointer;
 
 }

@@ -28,7 +28,7 @@ img {
     width: 46vw;
     margin-left: 14.5vw;
     margin-right: auto;
-   /* margin-top: 17px;*/
+    margin-top: 17px;
     display: block;
 
 }
@@ -115,6 +115,24 @@ h1 {
     text-align: center;
     letter-spacing: 2px;
     font-size: 1.45rem;
+}
+
+h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.05rem;
+}
+
+
+
+h4 {
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 0.8rem;
 }
 
 h2,
@@ -277,6 +295,25 @@ footer p {
     .dropdown:hover .dropdown_undersider {
         display: block;
     }*/
+
+
+        h2 {
+    font-size: 1.2rem;
+}
+
+h3 {
+    font-size: 1.05rem;
+}
+
+
+
+h4 {
+    font-size: 0.9rem;
+}
+
+p {
+    font-size: 0.9rem;
+}
     }
 
     @media(min-width:716px) {
@@ -302,6 +339,9 @@ footer p {
         h1 {
             font-size: 2.2rem;
         }
+
+
+
     }
 
     @media (min-width:993px) {
