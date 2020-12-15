@@ -24,10 +24,12 @@ span {
 
 article {
     line-height: 1.6;
+    padding-bottom: 8rem;
 }
 
 .contact-form {
-    margin: 15rem auto;
+    margin: auto;
+    margin-bottom: 15rem;
     padding: 30px;
     background: #d9dadf;
     /* You can change the main color of thew form here. */
