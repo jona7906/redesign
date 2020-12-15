@@ -210,6 +210,10 @@ h5 {
     padding-bottom: 50px;
 }
 
+.front_video h2 {
+    font-family: 'Playfair Display', serif;
+}
+
 @media (min-width: 600px) {
 
     /** .front_video {
