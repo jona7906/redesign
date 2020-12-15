@@ -29,6 +29,16 @@ p {
     padding-bottom: 15rem;
 }
 
+#ref_link {
+    margin-left: -0.6vw;
+}
+
+#ref_link:hover {
+    color: dimgrey;
+    text-decoration-line: underline;
+
+}
+
 
 .center {
     display: block;
