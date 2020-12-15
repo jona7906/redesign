@@ -2,6 +2,14 @@ main {
     margin: auto;
 }
 
+
+.billede img {
+    width: 293px;
+    height: 575px;
+    object-fit: cover;
+}
+
+
 .sectionwrapper a:link {
     font-weight: 600;
     text-decoration: underline;
