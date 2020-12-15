@@ -24,8 +24,12 @@ img {
     grid-column: 1/2;
 }
 
-.index {
-    grid-column: 2/3;
+.logo {
+    width: 46vw;
+    margin-left: 14.5vw;
+    margin-right: auto;
+    margin-top: 17px;
+    display: block;
 }
 
 
@@ -178,6 +182,24 @@ footer p {
 
 @media (min-width:661px) {
 
+
+    .logo_burger{
+        display: block;
+    }
+
+    .logo {
+    width: 26vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 17px;
+    display: block;
+}
+    /*.index {
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+          display: block;
+    }*/
 
     .info_tekst {
         text-align: center;
