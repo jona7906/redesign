@@ -16,6 +16,12 @@ p {
     line-height: 1.6;
 }
 
+.billede img {
+    width:300px;
+    height: 441px;
+    object-fit: cover;
+}
+
 .center {
     display: block;
     margin-left: auto;
