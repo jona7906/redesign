@@ -174,15 +174,17 @@ h5 {
     text-align: left;
     background-color: #D9DADF;
     width: 100%;
+
 }
 
 .info_text_01 {
     margin-left: 1vw;
     cursor: pointer;
+
 }
 
 .info_text_01 h5:hover {
-    color: green;
+    color: white;
 }
 
 .front_img_01 {
@@ -246,7 +248,7 @@ h5 {
         margin-right: 0px;
     }
 
-   /* .contact_container {
+    /* .contact_container {
         margin-right: auto;
         margin-left: auto;
         position: relative;
@@ -429,9 +431,7 @@ h5 {
         cursor: pointer;
     }
 
-    .info_text_01 h5:hover {
-        color: green;
-    }
+
 
     footer {
         height: 17rem;
