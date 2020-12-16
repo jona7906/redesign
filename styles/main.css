@@ -199,6 +199,7 @@ footer p {
     position: relative;
     display: inline-block;
     padding-left: 7px;
+    padding-right: 7px;
 }
 
 .dropdown_undersider {
