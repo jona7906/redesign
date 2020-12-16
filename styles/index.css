@@ -53,6 +53,7 @@ h5 {
     margin-top: -60vw;
     opacity: 50%;
     border: 1px white solid;
+    display: block;
 }
 
 .contact_container:hover {
@@ -102,6 +103,7 @@ h5 {
     margin-bottom: 15vw;
     padding-left: 85px;
     padding-right: 85px;
+    padding-top: 55vw;
 
 }
 
@@ -218,6 +220,13 @@ h5 {
     text-align: center;
 }
 
+@media (min-width: 350px) {
+
+    .front_img_container {
+        padding-top: 10vw;
+    }
+}
+
 @media (min-width: 600px) {
 
     /** .front_video {
@@ -261,6 +270,7 @@ h5 {
         display: grid;
         grid-template-columns: 2fr 2fr;
         grid-gap: 5vw;
+        margin-top: -10vw;
         margin-bottom: 10vw;
         padding-left: 30px;
         padding-right: 30px;
@@ -307,6 +317,15 @@ h5 {
 }
 
 @media (min-width:900px) {
+    .front_img_container {
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-gap: 5vw;
+        margin-top: -20vw;
+        margin-bottom: 10vw;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
 
     .front_video {
         height: 80vw;
@@ -341,12 +360,7 @@ h5 {
         background-color: lightgray;
     }*/
 
-    .contact_container {
 
-        width: 39vw;
-        height: 8vw;
-
-    }
 
 
 
@@ -413,7 +427,12 @@ h5 {
     .front_map_01 {
         grid-column: 1/2;
         grid-row: 1/5;
+        height: 83%;
+        object-fit: contain;
+
     }
+
+    .front_map_01 {}
 
 
     #front_map_hillerod {
