@@ -104,7 +104,33 @@ h5 {
     padding-left: 85px;
     padding-right: 85px;
     padding-top: 55vw;
+    width: 100%;
+}
 
+.tryk_erhverv,
+.tryk_privat {
+    position: relative;
+    display: block;
+    /*margin-left: 20vw;*/
+    margin-left: auto;
+    margin-right: auto;
+    top: -30vw;
+    width: 30vw;
+    height: 7vw;
+    text-align: center;
+    background-color: aliceblue;
+    opacity: 50%;
+}
+
+.tryk_erhverv p,
+.tryk_privat p {
+    padding-top: 2vw;
+
+}
+
+.tryk_erhverv:hover,
+.tryk_privat:hover {
+    opacity: 100%;
 }
 
 .social_container {
