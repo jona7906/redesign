@@ -127,6 +127,7 @@ h5 {
     text-align: center;
     background-color: aliceblue;
     opacity: 50%;
+
 }
 
 .tryk_erhverv p,
@@ -261,6 +262,22 @@ h5 {
 
 @media (min-width: 600px) {
 
+    .tryk_erhverv,
+    .tryk_privat {
+        top: -15vw;
+        width: 200px;
+
+        height: 50px;
+    }
+
+
+
+    .tryk_erhverv p,
+    .tryk_privat p {
+        font-size: 1.6vw;
+        padding-top: 1.8vw;
+    }
+
     /** .front_video {
         position: relative;
         overflow: hidden;
@@ -386,6 +403,11 @@ h5 {
         margin-bottom: 85px;
     }
 
+    .contact_button p {
+        font-size: 2.5vw;
+        margin-top: 6.5vw;
+    }
+
     .front_img_01 {
         padding-bottom: 10px;
     }
@@ -405,7 +427,19 @@ h5 {
         background-color: lightgray;
     }*/
 
+    .tryk_erhverv,
+    .tryk_privat {
+        top: -10vw;
+        width: 200px;
 
+        height: 60px;
+    }
+
+    .tryk_erhverv p,
+    .tryk_privat p {
+        font-size: 1.4vw;
+        padding-top: 1.5vw;
+    }
 
 
 
