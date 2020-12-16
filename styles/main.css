@@ -199,6 +199,7 @@ footer p {
     position: relative;
     display: inline-block;
     padding-left: 7px;
+    padding-right: 7px;
 }
 
 .dropdown_undersider {
@@ -237,8 +238,8 @@ footer p {
         margin-right: auto;
         margin-top: 17px;
         display: block;
-        padding-bottom: 9px;
-        padding-top: 5px;
+        padding-bottom: 6px;
+        padding-top: 0px;
     }
 
     /*.index {
@@ -375,8 +376,8 @@ footer p {
         }
 
         a {
-            padding-left: 9px;
-            padding-right: 9px;
+            padding-left: 10px;
+            padding-right: 10px;
         }
 
 
