@@ -117,6 +117,10 @@ body {
     display: inline-block;
 }
 
+#galleri_dropdown {
+    margin-top: 5px;
+}
+
 nav {
     text-transform: uppercase;
     text-align: center;
