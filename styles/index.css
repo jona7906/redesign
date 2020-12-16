@@ -122,7 +122,7 @@ h5 {
     margin-left: auto;
     margin-right: auto;
     top: -30vw;
-    width: 30vw;
+    width: 35vw;
     height: 7vw;
     text-align: center;
     background-color: aliceblue;
@@ -258,6 +258,8 @@ h5 {
     .front_img_container {
         padding-top: 18vw;
     }
+
+
 }
 
 @media (min-width: 600px) {
@@ -274,7 +276,7 @@ h5 {
 
     .tryk_erhverv p,
     .tryk_privat p {
-        font-size: 1.6vw;
+        font-size: 2.1vw;
         padding-top: 1.8vw;
     }
 
@@ -429,16 +431,16 @@ h5 {
 
     .tryk_erhverv,
     .tryk_privat {
-        top: -10vw;
-        width: 200px;
+        top: -14vw;
+        width: 300px;
 
         height: 60px;
     }
 
     .tryk_erhverv p,
     .tryk_privat p {
-        font-size: 1.4vw;
-        padding-top: 1.5vw;
+        font-size: 2.0vw;
+        padding-top: 1.2vw;
     }
 
 
