@@ -158,7 +158,7 @@ h5 {
 .facebook_text h2 {
 
     color: aliceblue;
-    font-size: 3vw;
+    font-size: 2vw;
 }
 
 .facebook_like_button {
@@ -208,6 +208,14 @@ h5 {
 
 .front_img_02 {
     padding-bottom: 50px;
+}
+
+.front_video h2 {
+    font-family: 'Playfair Display', serif;
+}
+
+.front_video {
+    text-align: center;
 }
 
 @media (min-width: 600px) {
