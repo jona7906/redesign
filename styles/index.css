@@ -241,6 +241,10 @@ h5 {
         height: 90vw;
     }
 
+    .front_video h2 {
+        font-size: 1.4rem;
+    }
+
     /**
     .front_video_sprite {
         bottom: 15vw;
@@ -328,6 +332,10 @@ h5 {
 
     .front_video {
         height: 80vw;
+    }
+
+    .front_video h2 {
+        font-size: 1.8rem;
     }
 
     main {
