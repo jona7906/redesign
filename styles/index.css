@@ -141,6 +141,14 @@ h5 {
     opacity: 100%;
 }
 
+.facebook_overskrift {
+    display: block;
+    width: 100%;
+    text-align: center;
+    top: 18vw;
+    position: relative;
+}
+
 .social_container {
     margin-bottom: 25vw;
     margin-top: 20vw;
@@ -263,6 +271,14 @@ h5 {
 }
 
 @media (min-width: 600px) {
+
+    .facebook_overskrift {
+        display: block;
+        width: 100%;
+        text-align: center;
+        top: 6vw;
+        position: relative;
+    }
 
     .tryk_erhverv,
     .tryk_privat {
@@ -442,6 +458,7 @@ h5 {
         font-size: 2.0vw;
         padding-top: 1.2vw;
     }
+
 
 
 
