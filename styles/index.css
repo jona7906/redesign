@@ -202,6 +202,8 @@ h5 {
 .facebook_text h3 {
     color: aliceblue;
     font-weight: 900;
+    margin-top: 2vw;
+
 }
 
 .facebook_like_button {
@@ -268,16 +270,25 @@ h5 {
     }
 
 
+
+
 }
 
 @media (min-width: 600px) {
+
+    .facebook_text h3 {
+
+        margin-bottom: 5vw;
+        margin-bottom: 5vw;
+    }
 
     .facebook_overskrift {
         display: block;
         width: 100%;
         text-align: center;
-        top: 6vw;
+        top: 17vw;
         position: relative;
+
     }
 
     .tryk_erhverv,
@@ -461,7 +472,14 @@ h5 {
 
 
 
+    .facebook_overskrift {
+        display: block;
+        width: 100%;
+        text-align: center;
+        top: 6vw;
+        position: relative;
 
+    }
 
 
     .social_container {
