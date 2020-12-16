@@ -31,7 +31,7 @@ h5 {
     left: 0vw;
     width: 100%;
     height: 10vw;
-    padding: 0px 30px 30px 30px;
+    padding: 18px 30px 30px 30px;
     top: 70vw;
 }
 
@@ -222,7 +222,7 @@ h5 {
 @media (min-width: 350px) {
 
     .front_img_container {
-        padding-top: 10vw;
+        padding-top: 18vw;
     }
 }
 
@@ -282,6 +282,7 @@ h5 {
     .sectionwrapper {
         margin-left: 0px;
         margin-right: 0px;
+        padding-top: 20px;
     }
 
     /* .contact_container {
