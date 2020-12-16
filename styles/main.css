@@ -50,18 +50,14 @@ body {
     height: 100px;
     z-index: 10;
     top: 40px;
-
 }
-
 
 .burger_menu img {
     width: 36px;
     height: 25px;
     margin-left: 4vw;
     padding: 0;
-
 }
-
 
 .burger_menu_undersider {
 
@@ -72,8 +68,6 @@ body {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     padding: 19px 30px;
     z-index: 1;
-
-
 }
 
 .burger_menu_undersider a {
@@ -86,19 +80,13 @@ body {
     height: 25px;
 }
 
-
-
 .burger_menu_undersider a:hover {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     box-sizing: border-box;
-
 }
 
 .burger_menu:hover .burger_menu_undersider {
     display: inline-block;
-
-
-
 }
 
 nav {
@@ -142,8 +130,6 @@ h3 {
     font-size: 1.05rem;
 }
 
-
-
 h4 {
     font-size: 0.9rem;
 }
@@ -156,8 +142,6 @@ h2,
 header,
 h4 {
     font-family: 'Montserrat', sans-serif;
-    /*    'Quicksand',
-sans-serif;*/
 }
 
 p,
@@ -175,15 +159,12 @@ footer {
     float: right;
     bottom: 0;
     width: 100%;
-
     /*height: 72rem;*/
     padding-left: 20px;
     padding-right: 20px;
-
     /*height: 72rem;*/
     padding-left: 40px;
     padding-right: 40px;
-
 }
 
 footer h4 {
@@ -193,7 +174,6 @@ footer h4 {
 footer p {
     font-size: 0.8rem;
 }
-
 
 .dropdown {
     position: relative;
@@ -223,11 +203,7 @@ footer p {
     display: inline-block;
 }
 
-
-
 @media (min-width:661px) {
-
-
     .logo_burger {
         display: block;
     }
@@ -252,54 +228,53 @@ footer p {
     .info_tekst {
         text-align: center;
     }
+}
 
-    @media (min-width:650px) {
+@media (min-width:650px) {
+    h1 {
+        font-size: 2rem;
+    }
 
-        h1 {
-            font-size: 2rem;
-        }
+    .burger_menu {
+        display: none;
+    }
 
-        .burger_menu {
-            display: none;
-        }
+    nav {
+        display: block;
+    }
 
-        nav {
-            display: block;
-        }
+    #footer_container {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-gap: 5vw;
+    }
 
+    .hilleroed1 {
+        grid-column: 1/2;
+    }
 
-        #footer_container {
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr 1fr;
-            grid-gap: 5vw;
-        }
+    .hilleroed2 {
+        grid-column: 2/3;
+    }
 
-        .hilleroed1 {
-            grid-column: 1/2;
-        }
+    .karslunde1 {
+        grid-column: 3/4;
 
-        .hilleroed2 {
-            grid-column: 2/3;
-        }
+    }
 
-        .karslunde1 {
-            grid-column: 3/4;
+    .karslunde2 {
+        grid-column: 4/5;
+    }
 
-        }
-
-        .karslunde2 {
-            grid-column: 4/5;
-        }
-
-        .dropdown {
-            position: relative;
-            display: inline-block;
-            text-align: left;
+    .dropdown {
+        position: relative;
+        display: inline-block;
+        text-align: left;
 
 
-        }
+    }
 
-        /*.dropdown_undersider {
+    /*.dropdown_undersider {
         margin: auto;
         display: none;
         position: absolute;
@@ -318,89 +293,72 @@ footer p {
     .dropdown:hover .dropdown_undersider {
         display: block;
     }*/
+}
 
-
+@media(min-width:716px) {
+    h1 {
+        font-size: 2rem;
     }
 
-    @media(min-width:716px) {
-        h1 {
-            font-size: 2rem;
-        }
-
-        nav {
-            font-size: 0.78rem;
-        }
-
-        a {
-            padding-left: 5px;
-            padding-right: 5px;
-        }
-
-        h2 {
-            font-size: 1.4rem;
-        }
-
-        h3 {
-            font-size: 1.15rem;
-        }
-
-
-
-        h4 {
-            font-size: 1.05rem;
-        }
-
-        p {
-            font-size: 1rem;
-        }
+    nav {
+        font-size: 0.78rem;
     }
 
-    @media(min-width:772px) {
-        nav {
-            font-size: 0.85rem;
-        }
-
-        h1 {
-            font-size: 2.2rem;
-        }
-
-
-
-
-
+    a {
+        padding-left: 5px;
+        padding-right: 5px;
     }
 
-    @media (min-width:993px) {
-        nav {
-            font-size: 1.05rem;
-        }
-
-        a {
-            padding-left: 10px;
-            padding-right: 10px;
-        }
-
-
-        h2 {
-            font-size: 1.5rem;
-        }
-
-        h3 {
-            font-size: 1.25rem;
-        }
-
-
-
-        h4 {
-            font-size: 1.1rem;
-        }
-
-        p {
-            font-size: 1.05rem;
-        }
-
-        /*.udfor {
-    padding-left: 5px;
-    padding-right: 5px;
-}*/
+    h2 {
+        font-size: 1.4rem;
     }
+
+    h3 {
+        font-size: 1.15rem;
+    }
+
+    h4 {
+        font-size: 1.05rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+}
+
+@media(min-width:772px) {
+    nav {
+        font-size: 0.85rem;
+    }
+
+    h1 {
+        font-size: 2.2rem;
+    }
+}
+
+@media (min-width:993px) {
+    nav {
+        font-size: 1.05rem;
+    }
+
+    a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    h2 {
+        font-size: 1.5rem;
+    }
+
+    h3 {
+        font-size: 1.25rem;
+    }
+
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    p {
+        font-size: 1.05rem;
+    }
+}
