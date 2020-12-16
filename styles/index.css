@@ -173,7 +173,7 @@ h5 {
 .info_container_01 {
     display: block;
     margin: 20px;
-
+    padding-bottom: 45px;
 }
 
 .hide_map {
@@ -420,7 +420,7 @@ h5 {
         grid-template-columns: 3fr 1fr 1fr;
         grid-template-rows: 3fr 1fr;
         grid-column-gap: 1vw;
-        padding-bottom: 30px;
+        padding-bottom: 45px;
     }
 
     .front_map_01 {
