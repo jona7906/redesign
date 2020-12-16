@@ -12,6 +12,13 @@ h5 {
     text-decoration: underline;
 }
 
+.front_text {
+    margin: 0 auto;
+    max-width: 1080px;
+    width: 100%;
+    position: relative;
+}
+
 .front_video {
     display: block;
 
@@ -329,6 +336,10 @@ h5 {
         margin-bottom: 10vw;
         padding-left: 30px;
         padding-right: 30px;
+    }
+
+    .front_text p {
+        font-size: 1.2rem;
     }
 
     .front_video {
