@@ -8,6 +8,11 @@ video {
     z-index: 0;
 }
 
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
 h5 {
     text-decoration: underline;
 }
@@ -210,9 +215,7 @@ h5 {
     margin-top: -4vw;
 }
 
-.front_map_01 {
-    height: 45vw;
-}
+.front_map_01 {}
 
 .info_container_01 {
     display: block;
@@ -543,8 +546,7 @@ h5 {
     .front_map_01 {
         grid-column: 1/2;
         grid-row: 1/5;
-        height: 83%;
-        object-fit: contain;
+
 
     }
 
