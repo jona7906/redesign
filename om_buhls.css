@@ -5,11 +5,15 @@ main {
 #om_buhls {
     margin-left: 20px;
     margin-right: 20px;
-    padding-bottom: 15rem;
+    /*padding-bottom: 15rem;*/
 }
 
 h2 {
     margin-bottom: 25px;
+}
+
+#referenceh2 {
+    margin-bottom: 0;
 }
 
 p {
@@ -30,6 +34,8 @@ p {
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+
 
 video {
     width: 100%;
